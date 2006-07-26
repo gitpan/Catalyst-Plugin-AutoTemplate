@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Catalyst-Plugin-AutoTemplate.t
+lib/Catalyst/Plugin/AutoTemplate.pm
+META.yml                                 Module meta-data (added by MakeMaker)

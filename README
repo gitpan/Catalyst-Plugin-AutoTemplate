@@ -1,0 +1,27 @@
+SYNOPSIS
+      package My::App;
+      use Catalyst::Runtime '5.70';
+      use Catalyst qw/-Debug ConfigLoader Static::Simple AutoTemplate/;
+  
+      ...
+
+DESCRIPTION
+    This Catalyst plugin rids the programmer of hardcoding template names in
+    the stash at the end of actions.
+
+    For example, if an action "/knob/frobnicate" was called, the plugin will
+    look for the "root/knob/frobnicate.mhtml" template.
+
+    Why "mhtml"? Here's the fun part. YOU get to adjust what extension is
+    used. Just define "template_extension" in your app config, and you're
+    golden!
+
+AUTHOR
+    Max Afonov, <max.afonov@mlb.com>
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2006 by Max Afonov
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
